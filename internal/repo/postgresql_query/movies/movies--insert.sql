@@ -10,5 +10,6 @@ INSERT INTO movies (
     $2,
     $3,
     $4,
-    $5
+    $5,
+    $6
 ) Returning id;

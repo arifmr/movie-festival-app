@@ -4,13 +4,13 @@ import _ "embed"
 
 //nolint:gochecknoglobals
 var (
-// file format => {SCHEMA}.{TABLE}--{COMMAND}[.{EXTRA}].sql
-///////////////////////////////////////////////////////////////////////////.
+	// file format => {SCHEMA}.{TABLE}--{COMMAND}[.{EXTRA}].sql
+	///////////////////////////////////////////////////////////////////////////.
 
-// USERS TABLE
-//
-// ----------------------------------------------------------------------------.
+	// MOVIES TABLE
+	//
+	// ----------------------------------------------------------------------------.
 
-// //go:embed users/koinbpr.users--insert.sql
-// InsertUsers string
+	//go:embed movies/movies--insert.sql
+	InsertMovies string
 )
