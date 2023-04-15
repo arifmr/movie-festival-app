@@ -1,0 +1,7 @@
+.env
+*.env
+.vscode
+.idea
+
+# we want to ignore this directory (ends with /)
+vendor/
